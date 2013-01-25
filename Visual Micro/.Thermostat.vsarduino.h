@@ -1,5 +1,5 @@
 //Board = Arduino Uno
-#define ARDUINO 102
+#define ARDUINO 101
 #define __AVR_ATmega328P__
 #define F_CPU 16000000L
 #define __AVR__
@@ -29,6 +29,6 @@ extern "C" void __cxa_pure_virtual() {}
 void sleep(int sleepTime);
 float get_temperature();
 
-#include "C:\arduino-1.0.2\hardware\arduino\variants\standard\pins_arduino.h" 
-#include "C:\arduino-1.0.2\hardware\arduino\cores\arduino\arduino.h"
-#include "C:\Users\mstng_000\Documents\Arduino\Thermostat\Thermostat.ino"
+#include "C:\arduino-1.0.1\hardware\arduino\variants\standard\pins_arduino.h" 
+#include "C:\arduino-1.0.1\hardware\arduino\cores\arduino\arduino.h"
+#include "C:\Users\Drew Cross\Thermostat\Thermostat.ino"

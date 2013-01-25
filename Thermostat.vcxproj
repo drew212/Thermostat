@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\arduino-1.0.2\hardware\arduino\cores\arduino;C:\arduino-1.0.2\hardware\arduino\variants\standard;c:\arduino-1.0.2\hardware\tools\avr\avr\include\;c:\arduino-1.0.2\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.2\hardware\tools\avr\avr\;c:\arduino-1.0.2\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\arduino-1.0.1\hardware\arduino\cores\arduino;C:\arduino-1.0.1\hardware\arduino\variants\standard;c:\arduino-1.0.1\hardware\tools\avr\avr\include\;c:\arduino-1.0.1\hardware\tools\avr\avr\include\avr\;c:\arduino-1.0.1\hardware\tools\avr\avr\;c:\arduino-1.0.1\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\mstng_000\Documents\Arduino\Thermostat\Visual Micro\.Thermostat.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>ARDUINO=102;__AVR_ATmega328P__;F_CPU=16000000L;__AVR__;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -76,4 +76,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="COM5" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
